@@ -35,7 +35,7 @@ def get_birthday():
   return (next - today).days
 
 def get_badybirthday():
-  delta = datetime.strptime(start_date, "%Y-%m-%d") - today
+  delta = datetime.strptime(birthday, "%Y-%m-%d") - today
   return delta.days
 
 
